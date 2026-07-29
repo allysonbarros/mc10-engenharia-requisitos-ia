@@ -1,0 +1,64 @@
+{"nome": "SPEC-001", "tipo": "SPEC", "descricao": "SPEC de inscrição em evento gratuito com controle de vagas, lista de espera e bloqueio de conflito de horário.", "fontes": ["docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 16}
+{"nome": "SPEC-002", "tipo": "SPEC", "descricao": "SPEC de gestão de eventos pelo organizador; fundacional para as demais.", "fontes": ["docs/specs/SPEC-002-gestao-de-eventos.md"], "mencoes": 13}
+{"nome": "SPEC-003", "tipo": "SPEC", "descricao": "SPEC do catálogo público de eventos disponíveis.", "fontes": ["docs/specs/SPEC-003-catalogo-de-eventos.md"], "mencoes": 7}
+{"nome": "SPEC-004", "tipo": "SPEC", "descricao": "SPEC de cancelamento de inscrição e promoção da lista de espera.", "fontes": ["docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"], "mencoes": 12}
+{"nome": "SPEC-005", "tipo": "SPEC", "descricao": "SPEC de pagamento, confirmação e reembolso para eventos pagos; classificada como Complexa.", "fontes": ["docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"], "mencoes": 13}
+{"nome": "SPEC-006", "tipo": "SPEC", "descricao": "SPEC de emissão de certificado liberada pelo organizador.", "fontes": ["docs/specs/SPEC-006-emissao-de-certificado.md"], "mencoes": 9}
+{"nome": "SPEC-007", "tipo": "SPEC", "descricao": "SPEC de notificações e comprovantes com canal de entrega desacoplado.", "fontes": ["docs/specs/SPEC-007-notificacoes-e-comprovantes.md"], "mencoes": 11}
+{"nome": "SPEC-008", "tipo": "SPEC", "descricao": "SPEC do painel do palestrante expondo dados mínimos do participante.", "fontes": ["docs/specs/SPEC-008-painel-do-palestrante.md"], "mencoes": 9}
+{"nome": "SPEC-009", "tipo": "SPEC", "descricao": "SPEC de autenticação e papéis (RBAC) dos cinco stakeholders.", "fontes": ["docs/specs/SPEC-009-autenticacao-e-papeis.md"], "mencoes": 12}
+{"nome": "RNF-001", "tipo": "SPEC", "descricao": "Catálogo de requisitos não-funcionais transversais: segurança, desempenho, disponibilidade, acessibilidade, privacidade.", "fontes": ["docs/specs/RNF-001-requisitos-nao-funcionais.md"], "mencoes": 14}
+{"nome": "Sistema de Gestão de Eventos", "tipo": "COMPONENTE", "descricao": "Sistema da Eventus para centralizar inscrições, vagas, pagamentos e certificados.", "fontes": ["contextos/sobre-o-projeto.md"], "mencoes": 19}
+{"nome": "Inscrição em evento", "tipo": "FEATURE", "descricao": "Participante se inscreve em um evento.", "fontes": ["docs/specs/SPEC-001-inscricao-controle-vagas.md", "contextos/sobre-o-projeto.md"], "mencoes": 6}
+{"nome": "Controle de vagas", "tipo": "FEATURE", "descricao": "Controle automático de vagas sem overbooking.", "fontes": ["docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 5}
+{"nome": "Lista de espera", "tipo": "FEATURE", "descricao": "Fila quando o evento lota.", "fontes": ["docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 4}
+{"nome": "Bloqueio de conflito de horário", "tipo": "FEATURE", "descricao": "Impede inscrição em atividades com horários sobrepostos.", "fontes": ["docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 3}
+{"nome": "Cancelamento de inscrição", "tipo": "FEATURE", "descricao": "Participante cancela sua inscrição conforme política do evento.", "fontes": ["docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md", "contextos/sobre-o-projeto.md"], "mencoes": 6}
+{"nome": "Promoção da lista de espera", "tipo": "FEATURE", "descricao": "Promoção do próximo da fila quando abre vaga.", "fontes": ["docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"], "mencoes": 6}
+{"nome": "Catálogo de eventos", "tipo": "FEATURE", "descricao": "Vitrine de eventos publicados.", "fontes": ["docs/specs/SPEC-003-catalogo-de-eventos.md", "contextos/sobre-o-projeto.md"], "mencoes": 6}
+{"nome": "Gestão de eventos", "tipo": "FEATURE", "descricao": "Organizador cria e gerencia eventos e atividades.", "fontes": ["docs/specs/SPEC-002-gestao-de-eventos.md", "contextos/sobre-o-projeto.md"], "mencoes": 7}
+{"nome": "Pagamento", "tipo": "FEATURE", "descricao": "Pagamento e confirmação para eventos pagos.", "fontes": ["docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md", "contextos/sobre-o-projeto.md"], "mencoes": 8}
+{"nome": "Reembolso", "tipo": "FEATURE", "descricao": "Reembolso conforme política do evento.", "fontes": ["docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"], "mencoes": 5}
+{"nome": "Emissão de certificado", "tipo": "FEATURE", "descricao": "Emissão de certificado após liberação.", "fontes": ["docs/specs/SPEC-006-emissao-de-certificado.md", "contextos/sobre-o-projeto.md"], "mencoes": 4}
+{"nome": "Notificações e comprovantes", "tipo": "FEATURE", "descricao": "Avisos e comprovantes transacionais aos participantes.", "fontes": ["docs/specs/SPEC-007-notificacoes-e-comprovantes.md"], "mencoes": 7}
+{"nome": "Painel do palestrante", "tipo": "FEATURE", "descricao": "Palestrante consulta suas atividades e participantes.", "fontes": ["docs/specs/SPEC-008-painel-do-palestrante.md", "contextos/sobre-o-projeto.md"], "mencoes": 5}
+{"nome": "Autenticação", "tipo": "FEATURE", "descricao": "Autenticação de usuários.", "fontes": ["docs/specs/SPEC-009-autenticacao-e-papeis.md"], "mencoes": 7}
+{"nome": "Autorização RBAC", "tipo": "FEATURE", "descricao": "Autorização por papel com menor privilégio.", "fontes": ["docs/specs/SPEC-009-autenticacao-e-papeis.md"], "mencoes": 3}
+{"nome": "Participante", "tipo": "PESSOA", "descricao": "Stakeholder que se inscreve, cancela e emite certificados.", "fontes": ["contextos/sobre-o-projeto.md"], "mencoes": 5}
+{"nome": "Organizador", "tipo": "PESSOA", "descricao": "Stakeholder que cria eventos e controla vagas.", "fontes": ["contextos/sobre-o-projeto.md"], "mencoes": 3}
+{"nome": "Equipe Financeira", "tipo": "PESSOA", "descricao": "Stakeholder que confirma pagamentos e controla reembolsos.", "fontes": ["contextos/sobre-o-projeto.md"], "mencoes": 3}
+{"nome": "Palestrante", "tipo": "PESSOA", "descricao": "Stakeholder que consulta a programação e os participantes de suas atividades.", "fontes": ["contextos/sobre-o-projeto.md"], "mencoes": 2}
+{"nome": "Equipe de TI", "tipo": "PESSOA", "descricao": "Stakeholder que desenvolve e mantém o sistema.", "fontes": ["contextos/sobre-o-projeto.md"], "mencoes": 1}
+{"nome": "Laura", "tipo": "AGENTE", "descricao": "Tech Lead que classifica o tamanho e aciona os arquitetos.", "fontes": ["docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 9}
+{"nome": "Diego", "tipo": "AGENTE", "descricao": "Arquiteto de sistemas; coordena SPECs de fluxo.", "fontes": ["docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 8}
+{"nome": "Fernanda", "tipo": "AGENTE", "descricao": "Arquiteta de dados; modela schemas.", "fontes": ["docs/specs/SPEC-002-gestao-de-eventos.md"], "mencoes": 4}
+{"nome": "Thiago", "tipo": "AGENTE", "descricao": "Arquiteto de integrações; contratos de API e gateway.", "fontes": ["docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"], "mencoes": 2}
+{"nome": "Lucas", "tipo": "AGENTE", "descricao": "Backend; implementa endpoints, serviços e regras.", "fontes": ["docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 4}
+{"nome": "Carlos", "tipo": "AGENTE", "descricao": "DBA; implementa migrations.", "fontes": ["docs/specs/SPEC-002-gestao-de-eventos.md"], "mencoes": 1}
+{"nome": "Rafael", "tipo": "AGENTE", "descricao": "Staff; decisões arquiteturais e ADRs.", "fontes": ["docs/specs/SPEC-009-autenticacao-e-papeis.md"], "mencoes": 4}
+{"nome": "Elisa", "tipo": "AGENTE", "descricao": "Cloud; escolha de provedor e infraestrutura.", "fontes": ["docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 1}
+{"nome": "Helena", "tipo": "AGENTE", "descricao": "Segurança; auditoria OWASP e PII.", "fontes": ["docs/specs/SPEC-009-autenticacao-e-papeis.md"], "mencoes": 6}
+{"nome": "Ricardo", "tipo": "AGENTE", "descricao": "Testes automatizados.", "fontes": ["docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 9}
+{"nome": "Renata", "tipo": "AGENTE", "descricao": "Observabilidade; logs, métricas e traces.", "fontes": ["docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"], "mencoes": 1}
+{"nome": "Murilo", "tipo": "AGENTE", "descricao": "Eventos e streaming; idempotência e outbox.", "fontes": ["docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"], "mencoes": 4}
+{"nome": "Isabela", "tipo": "AGENTE", "descricao": "UX; fluxos e telas.", "fontes": ["docs/specs/SPEC-003-catalogo-de-eventos.md"], "mencoes": 1}
+{"nome": "Marina", "tipo": "AGENTE", "descricao": "Frontend.", "fontes": ["docs/specs/SPEC-003-catalogo-de-eventos.md"], "mencoes": 1}
+{"nome": "Ada", "tipo": "AGENTE", "descricao": "Acessibilidade.", "fontes": ["docs/specs/RNF-001-requisitos-nao-funcionais.md"], "mencoes": 1}
+{"nome": "André", "tipo": "AGENTE", "descricao": "Busca full-text e filtros.", "fontes": ["docs/specs/SPEC-003-catalogo-de-eventos.md"], "mencoes": 1}
+{"nome": "Norma", "tipo": "AGENTE", "descricao": "Requisitos não-funcionais (apoio).", "fontes": ["docs/specs/RNF-001-requisitos-nao-funcionais.md"], "mencoes": 1}
+{"nome": "Vinícius", "tipo": "AGENTE", "descricao": "Performance.", "fontes": ["docs/specs/RNF-001-requisitos-nao-funcionais.md"], "mencoes": 2}
+{"nome": "Escopo só eventos gratuitos", "tipo": "DECISÃO", "descricao": "MVP de inscrição cobre só eventos gratuitos; pagamento é SPEC própria.", "fontes": ["decisoes/log.md", "docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 2}
+{"nome": "UPDATE condicional atômico", "tipo": "DECISÃO", "descricao": "Estratégia de concorrência para não estourar vagas; ratificar em ADR no T0.", "fontes": ["decisoes/log.md", "docs/specs/SPEC-001-inscricao-controle-vagas.md"], "mencoes": 2}
+{"nome": "Política configurável por evento", "tipo": "DECISÃO", "descricao": "Cancelamento e reembolso configuráveis por evento (permite, prazo, regra).", "fontes": ["decisoes/log.md", "docs/specs/SPEC-002-gestao-de-eventos.md"], "mencoes": 3}
+{"nome": "Liberação de certificado pelo organizador", "tipo": "DECISÃO", "descricao": "Certificado é liberado manualmente pelo organizador, não automático nem por presença.", "fontes": ["decisoes/log.md", "docs/specs/SPEC-006-emissao-de-certificado.md"], "mencoes": 2}
+{"nome": "Minimização de dados ao palestrante", "tipo": "DECISÃO", "descricao": "Palestrante vê só nome e atividade, por minimização LGPD.", "fontes": ["decisoes/log.md", "docs/specs/SPEC-008-painel-do-palestrante.md"], "mencoes": 2}
+{"nome": "Adoção da fábrica kairos-forge", "tipo": "DECISÃO", "descricao": "Projeto passou a usar o plugin kairos-forge para o ciclo spec-driven.", "fontes": ["decisoes/log.md"], "mencoes": 1}
+{"nome": "Escolha de stack e banco", "tipo": "DECISÃO", "descricao": "Decisão de stack e banco (T0), RESOLVIDA em ADR-0001: Ruby on Rails 8 + Next.js + PostgreSQL.", "fontes": ["contextos/stack.md", "docs/specs/SPEC-001-inscricao-controle-vagas.md", "docs/adr/ADR-0001-stack-e-banco.md"], "mencoes": 3}
+{"nome": "Provedor de pagamento", "tipo": "DECISÃO", "descricao": "Provedor de pagamento ainda não escolhido; bloqueia a SPEC-005.", "fontes": ["docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"], "mencoes": 2}
+{"nome": "Provedor de identidade", "tipo": "DECISÃO", "descricao": "Estratégia/provedor de autenticação pendente; bloqueia a SPEC-009.", "fontes": ["docs/specs/SPEC-009-autenticacao-e-papeis.md"], "mencoes": 2}
+{"nome": "Canal de notificação", "tipo": "DECISÃO", "descricao": "Canal/provedor de notificação pendente; bloqueia a entrega externa da SPEC-007.", "fontes": ["docs/specs/SPEC-007-notificacoes-e-comprovantes.md"], "mencoes": 1}
+{"nome": "ADR-0001", "tipo": "ADR", "descricao": "Decisão de stack e banco: Rails 8 (API) + Next.js + PostgreSQL, containerizado; resolve o T0.", "fontes": ["docs/adr/ADR-0001-stack-e-banco.md"], "mencoes": 5}
+{"nome": "Ruby on Rails", "tipo": "TECNOLOGIA", "descricao": "Framework backend/API escolhido (Rails 8), com RuboCop, Brakeman e CI no scaffold.", "fontes": ["docs/adr/ADR-0001-stack-e-banco.md", "contextos/stack.md"], "mencoes": 2}
+{"nome": "Next.js", "tipo": "TECNOLOGIA", "descricao": "Framework frontend (React + TypeScript) que consome a API Rails via REST.", "fontes": ["docs/adr/ADR-0001-stack-e-banco.md", "contextos/stack.md"], "mencoes": 2}
+{"nome": "PostgreSQL", "tipo": "TECNOLOGIA", "descricao": "Banco relacional escolhido; suporta UPDATE condicional atômico, transações fortes e RLS.", "fontes": ["docs/adr/ADR-0001-stack-e-banco.md", "contextos/stack.md"], "mencoes": 2}
+{"nome": "Docker", "tipo": "TECNOLOGIA", "descricao": "Empacotamento das aplicações (API e frontend) em imagens separadas.", "fontes": ["docs/adr/ADR-0001-stack-e-banco.md"], "mencoes": 1}

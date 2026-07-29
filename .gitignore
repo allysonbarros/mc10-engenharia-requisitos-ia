@@ -1,0 +1,39 @@
+# Segredos / ambiente
+.env
+.env.*
+!.env.example
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temporários
+*.log
+tmp/
+log/
+
+# Node (web/)
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# Ruby / Rails (api/)
+/api/tmp/
+/api/log/
+/api/storage/
+/api/.bundle/
+*.gem
+.byebug_history
+
+# Editores
+.idea/
+.vscode/
+*.swp
+
+# Scratchpad da fábrica (não versionar)
+scratchpad/

@@ -1,0 +1,53 @@
+Sistema de Gestão de Eventos
+1. Contexto do Projeto
+A empresa Eventus organiza congressos, workshops e eventos corporativos.
+Atualmente, o gerenciamento das inscrições é realizado por meio de formulários on-line e planilhas eletrônicas, dificultando o controle de vagas, pagamentos, cancelamentos e emissão de certificados.
+Com o crescimento do número de eventos realizados, a empresa decidiu desenvolver um sistema para centralizar essas atividades, oferecendo uma melhor experiência aos participantes e maior controle para os
+organizadores.
+
+2. Stakeholders Identificados
+
+Stakeholder Interesse
+Participantes Inscrever-se em eventos, acompanhar inscrições, canceparticipação e emitir certificados.
+Organizadores Criar eventos, controlar vagas, acompanhar inscrições gerenciar participantes.
+
+Equipe
+Financeira
+Confirmar pagamentos e controlar reembolsos.
+Palestrantes Consultar a programação e informações sobre participantes de suas atividades.
+Equipe de TI Desenvolver e manter o sistema.
+
+3. Informações Obtidas nas Entrevistas
+Participantes
+"Gostaria de visualizar todos os eventos disponíveis em um único lugar."
+"Seria interessante receber um comprovante logo após a inscrição."
+"Quando não puder participar, gostaria de cancelar minha inscrição sem precisar entrar em contato com a organização."
+"Quero conseguir emitir meu certificado depois do evento."
+"Gostaria de me inscrever em vários workshops que acontecerão no mesmo dia."
+
+Organizadores
+"Precisamos controlar automaticamente o número de vagas."
+"Quando um evento lotar, seria interessante criar uma lista de espera."
+"Nem todos os eventos permitem o cancelamento da inscrição."
+"Gostaríamos de acompanhar a quantidade de inscritos em tempo real."
+"Os workshops que acontecem no mesmo horário devem ocorrer simultaneamente."
+
+Equipe Financeira
+"Alguns eventos são gratuitos e outros exigem pagamento."
+"Em alguns casos o participante tem direito ao reembolso, em outros não."
+"Precisamos confirmar os pagamentos antes de liberar determinadas inscrições."
+
+Palestrantes
+"Gostaria de consultar a lista de participantes inscritos em minhas atividades."
+
+4. Observações
+Durante as entrevistas, alguns pontos permanecem sem definição e deverão ser analisados.
+● Não foi definido até quando o participante poderá cancelar sua inscrição.
+● Não está claro em quais situações haverá reembolso.
+● Não foi informado como funcionará a lista de espera.
+● Não foi definido se os certificados serão emitidos automaticamente ou dependerão da confirmação da presença.
+● Não foi informado como serão enviados comprovantes de inscrição e demais notificações aos participantes.
+● Não está definido se a vaga será reservada no momento em que o participante iniciar o pagamento ou somente após sua confirmação.
+● Não foi discutido como o sistema deverá tratar tentativas de inscrição em atividades com horários conflitantes.
+● Não foi definido quais informações dos participantes poderão ser visualizadas pelos palestrantes.
+● Não foram levantados requisitos relacionados à segurança, desempenho, disponibilidade, acessibilidade e privacidade dos dados.

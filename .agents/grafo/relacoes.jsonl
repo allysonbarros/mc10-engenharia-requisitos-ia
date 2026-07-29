@@ -1,0 +1,160 @@
+{"origem": "SPEC-001", "predicado": "implementa", "destino": "Inscrição em evento", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "SPEC-001", "predicado": "implementa", "destino": "Controle de vagas", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "SPEC-001", "predicado": "implementa", "destino": "Lista de espera", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "SPEC-001", "predicado": "implementa", "destino": "Bloqueio de conflito de horário", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "SPEC-002", "predicado": "implementa", "destino": "Gestão de eventos", "fonte": "docs/specs/SPEC-002-gestao-de-eventos.md"}
+{"origem": "SPEC-003", "predicado": "implementa", "destino": "Catálogo de eventos", "fonte": "docs/specs/SPEC-003-catalogo-de-eventos.md"}
+{"origem": "SPEC-004", "predicado": "implementa", "destino": "Cancelamento de inscrição", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "SPEC-004", "predicado": "implementa", "destino": "Promoção da lista de espera", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "SPEC-005", "predicado": "implementa", "destino": "Pagamento", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "SPEC-005", "predicado": "implementa", "destino": "Reembolso", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "SPEC-006", "predicado": "implementa", "destino": "Emissão de certificado", "fonte": "docs/specs/SPEC-006-emissao-de-certificado.md"}
+{"origem": "SPEC-007", "predicado": "implementa", "destino": "Notificações e comprovantes", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "SPEC-008", "predicado": "implementa", "destino": "Painel do palestrante", "fonte": "docs/specs/SPEC-008-painel-do-palestrante.md"}
+{"origem": "SPEC-009", "predicado": "implementa", "destino": "Autenticação", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "SPEC-009", "predicado": "implementa", "destino": "Autorização RBAC", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Inscrição em evento", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Controle de vagas", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Lista de espera", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Bloqueio de conflito de horário", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Cancelamento de inscrição", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Promoção da lista de espera", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Catálogo de eventos", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Gestão de eventos", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Pagamento", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Reembolso", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Emissão de certificado", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Notificações e comprovantes", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Painel do palestrante", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Autenticação", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Autorização RBAC", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "SPEC-001", "predicado": "depende de", "destino": "SPEC-002", "fonte": "docs/specs/SPEC-002-gestao-de-eventos.md"}
+{"origem": "SPEC-003", "predicado": "depende de", "destino": "SPEC-002", "fonte": "docs/specs/SPEC-003-catalogo-de-eventos.md"}
+{"origem": "SPEC-004", "predicado": "depende de", "destino": "SPEC-001", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "SPEC-004", "predicado": "depende de", "destino": "SPEC-002", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "SPEC-004", "predicado": "depende de", "destino": "SPEC-007", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "SPEC-002", "predicado": "depende de", "destino": "SPEC-009", "fonte": "docs/specs/SPEC-002-gestao-de-eventos.md"}
+{"origem": "SPEC-005", "predicado": "depende de", "destino": "SPEC-001", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "SPEC-005", "predicado": "depende de", "destino": "SPEC-009", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "SPEC-008", "predicado": "depende de", "destino": "SPEC-002", "fonte": "docs/specs/SPEC-008-painel-do-palestrante.md"}
+{"origem": "SPEC-008", "predicado": "depende de", "destino": "SPEC-009", "fonte": "docs/specs/SPEC-008-painel-do-palestrante.md"}
+{"origem": "SPEC-006", "predicado": "depende de", "destino": "SPEC-001", "fonte": "docs/specs/SPEC-006-emissao-de-certificado.md"}
+{"origem": "SPEC-006", "predicado": "depende de", "destino": "SPEC-002", "fonte": "docs/specs/SPEC-006-emissao-de-certificado.md"}
+{"origem": "SPEC-007", "predicado": "consome", "destino": "SPEC-001", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "SPEC-007", "predicado": "consome", "destino": "SPEC-004", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "SPEC-007", "predicado": "consome", "destino": "SPEC-005", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "RNF-001", "predicado": "restringe", "destino": "SPEC-001", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "RNF-001", "predicado": "restringe", "destino": "SPEC-002", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "RNF-001", "predicado": "restringe", "destino": "SPEC-003", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "RNF-001", "predicado": "restringe", "destino": "SPEC-004", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "RNF-001", "predicado": "restringe", "destino": "SPEC-005", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "RNF-001", "predicado": "restringe", "destino": "SPEC-006", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "RNF-001", "predicado": "restringe", "destino": "SPEC-007", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "RNF-001", "predicado": "restringe", "destino": "SPEC-008", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "RNF-001", "predicado": "restringe", "destino": "SPEC-009", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "Laura", "predicado": "responsável por", "destino": "SPEC-001", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "Laura", "predicado": "responsável por", "destino": "SPEC-002", "fonte": "docs/specs/SPEC-002-gestao-de-eventos.md"}
+{"origem": "Laura", "predicado": "responsável por", "destino": "SPEC-003", "fonte": "docs/specs/SPEC-003-catalogo-de-eventos.md"}
+{"origem": "Laura", "predicado": "responsável por", "destino": "SPEC-004", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "Laura", "predicado": "responsável por", "destino": "SPEC-005", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Laura", "predicado": "responsável por", "destino": "SPEC-006", "fonte": "docs/specs/SPEC-006-emissao-de-certificado.md"}
+{"origem": "Laura", "predicado": "responsável por", "destino": "SPEC-007", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "Laura", "predicado": "responsável por", "destino": "SPEC-008", "fonte": "docs/specs/SPEC-008-painel-do-palestrante.md"}
+{"origem": "Laura", "predicado": "responsável por", "destino": "SPEC-009", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Ricardo", "predicado": "valida", "destino": "SPEC-001", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "Ricardo", "predicado": "valida", "destino": "SPEC-002", "fonte": "docs/specs/SPEC-002-gestao-de-eventos.md"}
+{"origem": "Ricardo", "predicado": "valida", "destino": "SPEC-003", "fonte": "docs/specs/SPEC-003-catalogo-de-eventos.md"}
+{"origem": "Ricardo", "predicado": "valida", "destino": "SPEC-004", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "Ricardo", "predicado": "valida", "destino": "SPEC-005", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Ricardo", "predicado": "valida", "destino": "SPEC-006", "fonte": "docs/specs/SPEC-006-emissao-de-certificado.md"}
+{"origem": "Ricardo", "predicado": "valida", "destino": "SPEC-007", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "Ricardo", "predicado": "valida", "destino": "SPEC-008", "fonte": "docs/specs/SPEC-008-painel-do-palestrante.md"}
+{"origem": "Ricardo", "predicado": "valida", "destino": "SPEC-009", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Diego", "predicado": "documenta", "destino": "SPEC-001", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "Fernanda", "predicado": "documenta", "destino": "SPEC-001", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "Fernanda", "predicado": "documenta", "destino": "SPEC-002", "fonte": "docs/specs/SPEC-002-gestao-de-eventos.md"}
+{"origem": "Diego", "predicado": "documenta", "destino": "SPEC-002", "fonte": "docs/specs/SPEC-002-gestao-de-eventos.md"}
+{"origem": "Diego", "predicado": "documenta", "destino": "SPEC-003", "fonte": "docs/specs/SPEC-003-catalogo-de-eventos.md"}
+{"origem": "Isabela", "predicado": "documenta", "destino": "SPEC-003", "fonte": "docs/specs/SPEC-003-catalogo-de-eventos.md"}
+{"origem": "Diego", "predicado": "documenta", "destino": "SPEC-004", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "Murilo", "predicado": "documenta", "destino": "SPEC-004", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "Thiago", "predicado": "documenta", "destino": "SPEC-005", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Fernanda", "predicado": "documenta", "destino": "SPEC-005", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Helena", "predicado": "documenta", "destino": "SPEC-005", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Diego", "predicado": "documenta", "destino": "SPEC-006", "fonte": "docs/specs/SPEC-006-emissao-de-certificado.md"}
+{"origem": "Fernanda", "predicado": "documenta", "destino": "SPEC-006", "fonte": "docs/specs/SPEC-006-emissao-de-certificado.md"}
+{"origem": "Diego", "predicado": "documenta", "destino": "SPEC-007", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "Murilo", "predicado": "documenta", "destino": "SPEC-007", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "Helena", "predicado": "documenta", "destino": "SPEC-008", "fonte": "docs/specs/SPEC-008-painel-do-palestrante.md"}
+{"origem": "Diego", "predicado": "documenta", "destino": "SPEC-008", "fonte": "docs/specs/SPEC-008-painel-do-palestrante.md"}
+{"origem": "Helena", "predicado": "documenta", "destino": "SPEC-009", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Diego", "predicado": "documenta", "destino": "SPEC-009", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Rafael", "predicado": "documenta", "destino": "SPEC-009", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Norma", "predicado": "documenta", "destino": "RNF-001", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "Helena", "predicado": "documenta", "destino": "RNF-001", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "Vinícius", "predicado": "documenta", "destino": "RNF-001", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "Lucas", "predicado": "responsável por", "destino": "Inscrição em evento", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "Lucas", "predicado": "responsável por", "destino": "Cancelamento de inscrição", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "Lucas", "predicado": "responsável por", "destino": "Autenticação", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Lucas", "predicado": "responsável por", "destino": "Pagamento", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Thiago", "predicado": "responsável por", "destino": "Pagamento", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Helena", "predicado": "responsável por", "destino": "Autorização RBAC", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Helena", "predicado": "responsável por", "destino": "Painel do palestrante", "fonte": "docs/specs/SPEC-008-painel-do-palestrante.md"}
+{"origem": "Murilo", "predicado": "responsável por", "destino": "Promoção da lista de espera", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "Murilo", "predicado": "responsável por", "destino": "Notificações e comprovantes", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "André", "predicado": "responsável por", "destino": "Catálogo de eventos", "fonte": "docs/specs/SPEC-003-catalogo-de-eventos.md"}
+{"origem": "Marina", "predicado": "responsável por", "destino": "Catálogo de eventos", "fonte": "docs/specs/SPEC-003-catalogo-de-eventos.md"}
+{"origem": "Carlos", "predicado": "responsável por", "destino": "Gestão de eventos", "fonte": "docs/specs/SPEC-002-gestao-de-eventos.md"}
+{"origem": "Renata", "predicado": "responsável por", "destino": "Notificações e comprovantes", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "Rafael", "predicado": "responsável por", "destino": "Escolha de stack e banco", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "Elisa", "predicado": "responsável por", "destino": "Escolha de stack e banco", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "Rafael", "predicado": "responsável por", "destino": "Provedor de identidade", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Rafael", "predicado": "responsável por", "destino": "Provedor de pagamento", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Equipe de TI", "predicado": "responsável por", "destino": "Sistema de Gestão de Eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Ada", "predicado": "valida", "destino": "RNF-001", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "Vinícius", "predicado": "valida", "destino": "RNF-001", "fonte": "docs/specs/RNF-001-requisitos-nao-funcionais.md"}
+{"origem": "SPEC-001", "predicado": "decidiu usar", "destino": "Escopo só eventos gratuitos", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "SPEC-001", "predicado": "decidiu usar", "destino": "UPDATE condicional atômico", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "SPEC-002", "predicado": "decidiu usar", "destino": "Política configurável por evento", "fonte": "docs/specs/SPEC-002-gestao-de-eventos.md"}
+{"origem": "SPEC-004", "predicado": "depende de", "destino": "Política configurável por evento", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "SPEC-005", "predicado": "depende de", "destino": "Política configurável por evento", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "SPEC-006", "predicado": "decidiu usar", "destino": "Liberação de certificado pelo organizador", "fonte": "docs/specs/SPEC-006-emissao-de-certificado.md"}
+{"origem": "SPEC-008", "predicado": "decidiu usar", "destino": "Minimização de dados ao palestrante", "fonte": "docs/specs/SPEC-008-painel-do-palestrante.md"}
+{"origem": "Adoção da fábrica kairos-forge", "predicado": "pertence a", "destino": "Sistema de Gestão de Eventos", "fonte": "decisoes/log.md"}
+{"origem": "Provedor de pagamento", "predicado": "bloqueia", "destino": "SPEC-005", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Provedor de identidade", "predicado": "bloqueia", "destino": "SPEC-009", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Canal de notificação", "predicado": "bloqueia", "destino": "SPEC-007", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "Participante", "predicado": "consome", "destino": "Inscrição em evento", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Participante", "predicado": "consome", "destino": "Catálogo de eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Participante", "predicado": "consome", "destino": "Emissão de certificado", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Participante", "predicado": "consome", "destino": "Cancelamento de inscrição", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Organizador", "predicado": "responsável por", "destino": "Gestão de eventos", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Organizador", "predicado": "consome", "destino": "Controle de vagas", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Equipe Financeira", "predicado": "responsável por", "destino": "Pagamento", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Equipe Financeira", "predicado": "responsável por", "destino": "Reembolso", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Palestrante", "predicado": "consome", "destino": "Painel do palestrante", "fonte": "contextos/sobre-o-projeto.md"}
+{"origem": "Participante", "predicado": "depende de", "destino": "Autenticação", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Organizador", "predicado": "depende de", "destino": "Autenticação", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Equipe Financeira", "predicado": "depende de", "destino": "Autenticação", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Palestrante", "predicado": "depende de", "destino": "Autenticação", "fonte": "docs/specs/SPEC-009-autenticacao-e-papeis.md"}
+{"origem": "Lista de espera", "predicado": "depende de", "destino": "Controle de vagas", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "Promoção da lista de espera", "predicado": "depende de", "destino": "Cancelamento de inscrição", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "Promoção da lista de espera", "predicado": "depende de", "destino": "Lista de espera", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "Bloqueio de conflito de horário", "predicado": "depende de", "destino": "Gestão de eventos", "fonte": "docs/specs/SPEC-001-inscricao-controle-vagas.md"}
+{"origem": "Pagamento", "predicado": "depende de", "destino": "Controle de vagas", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Emissão de certificado", "predicado": "depende de", "destino": "Inscrição em evento", "fonte": "docs/specs/SPEC-006-emissao-de-certificado.md"}
+{"origem": "Painel do palestrante", "predicado": "depende de", "destino": "Gestão de eventos", "fonte": "docs/specs/SPEC-008-painel-do-palestrante.md"}
+{"origem": "Catálogo de eventos", "predicado": "depende de", "destino": "Gestão de eventos", "fonte": "docs/specs/SPEC-003-catalogo-de-eventos.md"}
+{"origem": "Reembolso", "predicado": "depende de", "destino": "Pagamento", "fonte": "docs/specs/SPEC-005-pagamento-confirmacao-reembolso.md"}
+{"origem": "Reembolso", "predicado": "depende de", "destino": "Cancelamento de inscrição", "fonte": "docs/specs/SPEC-004-cancelamento-e-promocao-lista-espera.md"}
+{"origem": "Notificações e comprovantes", "predicado": "consome", "destino": "Inscrição em evento", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "Notificações e comprovantes", "predicado": "consome", "destino": "Promoção da lista de espera", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "Notificações e comprovantes", "predicado": "consome", "destino": "Pagamento", "fonte": "docs/specs/SPEC-007-notificacoes-e-comprovantes.md"}
+{"origem": "ADR-0001", "predicado": "substitui", "destino": "Escolha de stack e banco", "fonte": "docs/adr/ADR-0001-stack-e-banco.md"}
+{"origem": "ADR-0001", "predicado": "decidiu usar", "destino": "Ruby on Rails", "fonte": "docs/adr/ADR-0001-stack-e-banco.md"}
+{"origem": "ADR-0001", "predicado": "decidiu usar", "destino": "Next.js", "fonte": "docs/adr/ADR-0001-stack-e-banco.md"}
+{"origem": "ADR-0001", "predicado": "decidiu usar", "destino": "PostgreSQL", "fonte": "docs/adr/ADR-0001-stack-e-banco.md"}
+{"origem": "ADR-0001", "predicado": "decidiu usar", "destino": "Docker", "fonte": "docs/adr/ADR-0001-stack-e-banco.md"}
+{"origem": "UPDATE condicional atômico", "predicado": "depende de", "destino": "PostgreSQL", "fonte": "docs/adr/ADR-0001-stack-e-banco.md"}
+{"origem": "Sistema de Gestão de Eventos", "predicado": "decidiu usar", "destino": "Ruby on Rails", "fonte": "docs/adr/ADR-0001-stack-e-banco.md"}
+{"origem": "Sistema de Gestão de Eventos", "predicado": "decidiu usar", "destino": "Next.js", "fonte": "docs/adr/ADR-0001-stack-e-banco.md"}

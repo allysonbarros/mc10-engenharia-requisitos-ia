@@ -1,0 +1,6 @@
+{"alias": "Eventus", "canonico": "Sistema de Gestão de Eventos"}
+{"alias": "RBAC", "canonico": "Autorização RBAC"}
+{"alias": "T0", "canonico": "Escolha de stack e banco"}
+{"alias": "Rails", "canonico": "Ruby on Rails"}
+{"alias": "Postgres", "canonico": "PostgreSQL"}
+{"alias": "ADR-0001-stack-e-banco", "canonico": "ADR-0001"}
