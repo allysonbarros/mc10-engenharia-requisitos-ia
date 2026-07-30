@@ -1,7 +1,7 @@
 # Sistema de Gestão de Eventos — Eventus
 
 > Trabalho prático da pós-graduação em **Engenharia de Software com IA — UFG**.
-> Projeto conduzido com a fábrica de agentes **[kairos-forge](https://github.com/)** (spec-driven development assistido por IA).
+> Projeto conduzido com a fábrica de agentes **[kairos-forge](https://github.com/vilelaAI/kairos-forge)** (spec-driven development assistido por IA).
 
 A **Eventus** organiza congressos, workshops e eventos corporativos. Hoje o gerenciamento de inscrições é feito com formulários on-line e planilhas, o que dificulta o controle de vagas, pagamentos, cancelamentos e emissão de certificados. Este projeto centraliza essas atividades em um sistema próprio.
 
