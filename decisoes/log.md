@@ -42,6 +42,10 @@ Elicitação com o usuário (Thiago/Joana/Financeiro):
 - **Reserva de vaga:** timeout de 15min confirmado.
 - Confirmação via webhook (validação de assinatura + idempotência). SPEC-005 atualizada: Q-01/Q-02/Q-03 resolvidas; restam Q-04 (taxa do gateway no reembolso) e Q-05 (prazo default) — não bloqueantes.
 
+## 2026-07-30 — Backlog, épicos e roadmap de sprints (Camila)
+
+Derivado das SPECs: 9 épicos (E0 fundação → E8 palestrante), ~48 histórias rastreáveis a requisitos, backlog priorizado (MoSCoW) e roadmap de ~10-14 sprints de 1 semana. Premissas: cadência 1 semana; capacidade = fábrica kairos-forge (agentes paralelos); estimativa em story points Fibonacci; velocidade inicial ~20 SP/sprint (a calibrar). Documentos em `docs/planejamento/` (backlog-e-roadmap.md + historias-detalhadas.md). Cada história aponta para o ID do requisito da SPEC — rastreabilidade ponta a ponta. Detalhamento completo (Gherkin + DoD + agentes) dos sprints de fundação/identidade/eventos + destaques críticos (concorrência de vagas, webhook de pagamento).
+
 ## 2026-07-30 — Projeto publicado no GitHub (público)
 
 Repositório público criado em `github.com/allysonbarros/mc10-engenharia-requisitos-ia` (branch padrão `main`), para uso como trabalho da pós em Engenharia de Software com IA (UFG). git init + .gitignore (Rails/Node/.env) + README adicionados. Verificação de segurança pré-publicação: nenhum segredo versionado. Baseline = artefatos de requisitos (10 SPECs, 3 ADRs, 2 threat models, DESIGN-002, grafo, auditoria). Implementação da SPEC-002 (scaffold Rails+Next) estava em andamento e foi **pausada** para a publicação; será retomada com commits por incremento.
