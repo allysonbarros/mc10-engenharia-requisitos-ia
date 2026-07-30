@@ -42,6 +42,10 @@ Elicitação com o usuário (Thiago/Joana/Financeiro):
 - **Reserva de vaga:** timeout de 15min confirmado.
 - Confirmação via webhook (validação de assinatura + idempotência). SPEC-005 atualizada: Q-01/Q-02/Q-03 resolvidas; restam Q-04 (taxa do gateway no reembolso) e Q-05 (prazo default) — não bloqueantes.
 
+## 2026-07-30 — Backlog materializado como issues no GitHub
+
+63 issues criadas (uma por história do backlog), com labels (9 épicos, prioridade MoSCoW, story points, tipo:história) e 10 milestones = sprints (S1–S10). Cada issue traz rastreabilidade ao requisito da SPEC, prioridade, pontos, dependências e DoD. Distribuição por sprint bate com o roadmap. Backlog agora navegável em github.com/allysonbarros/mc10-engenharia-requisitos-ia/issues.
+
 ## 2026-07-30 — Fundação de UX + DESIGNs de alta prioridade (Isabela/Pablo/Ada)
 
 Decidido criar DESIGN só para SPECs com UI real (não para todas). Extraída uma **fundação compartilhada** `DESIGN-000-fundacao-ux.md` (tokens, componentes base, a11y global, VG-01..08, regra dos 5 estados) para evitar duplicação — par de design da história E0-04. Criados os DESIGN de alta prioridade referenciando a fundação: `DESIGN-001` (inscrição), `DESIGN-003` (catálogo), `DESIGN-005` (pagamento, com regras de segurança de UI do threat model). Pulados por não terem UI própria: SPEC-007 (infra) e RNF-001.
