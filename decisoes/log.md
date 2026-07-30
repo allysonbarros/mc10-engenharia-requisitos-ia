@@ -44,7 +44,11 @@ Elicitação com o usuário (Thiago/Joana/Financeiro):
 
 ## 2026-07-30 — Fundação de UX + DESIGNs de alta prioridade (Isabela/Pablo/Ada)
 
-Decidido criar DESIGN só para SPECs com UI real (não para todas). Extraída uma **fundação compartilhada** `DESIGN-000-fundacao-ux.md` (tokens, componentes base, a11y global, VG-01..08, regra dos 5 estados) para evitar duplicação — par de design da história E0-04. Criados os DESIGN de alta prioridade referenciando a fundação: `DESIGN-001` (inscrição), `DESIGN-003` (catálogo), `DESIGN-005` (pagamento, com regras de segurança de UI do threat model). Pendentes (média/enxuta): 006, 008, 009, 004. Pulados por não terem UI própria: SPEC-007 (infra) e RNF-001.
+Decidido criar DESIGN só para SPECs com UI real (não para todas). Extraída uma **fundação compartilhada** `DESIGN-000-fundacao-ux.md` (tokens, componentes base, a11y global, VG-01..08, regra dos 5 estados) para evitar duplicação — par de design da história E0-04. Criados os DESIGN de alta prioridade referenciando a fundação: `DESIGN-001` (inscrição), `DESIGN-003` (catálogo), `DESIGN-005` (pagamento, com regras de segurança de UI do threat model). Pulados por não terem UI própria: SPEC-007 (infra) e RNF-001.
+
+## 2026-07-30 — DESIGNs restantes fechados (006, 008, 009, 004)
+
+Completada a camada de design das SPECs com UI: `DESIGN-006` (certificado), `DESIGN-008` (painel do palestrante, com regras de minimização LGPD), `DESIGN-009` (auth, enxuto, com segurança de UI — mensagens genéricas anti-enumeração), `DESIGN-004` (cancelamento + oferta de promoção, complementa a 001). Total: DESIGN-000 (fundação) + 8 DESIGNs de feature (001,002,003,004,005,006,008,009). Cobertura de UI 100%.
 
 ## 2026-07-30 — Backlog, épicos e roadmap de sprints (Camila)
 
