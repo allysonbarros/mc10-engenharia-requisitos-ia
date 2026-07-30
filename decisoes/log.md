@@ -42,6 +42,10 @@ Elicitação com o usuário (Thiago/Joana/Financeiro):
 - **Reserva de vaga:** timeout de 15min confirmado.
 - Confirmação via webhook (validação de assinatura + idempotência). SPEC-005 atualizada: Q-01/Q-02/Q-03 resolvidas; restam Q-04 (taxa do gateway no reembolso) e Q-05 (prazo default) — não bloqueantes.
 
+## 2026-07-30 — Critérios visuais (V-xx) anexados às SPECs
+
+Cada SPEC com UI ganhou uma seção "Critérios de aceite visuais (DESIGN-NNN)" listando os V-xx como rastreáveis (status Pendente), com o "como verificar" mantido no DESIGN (DRY). Cobre SPEC-001/002/003/004/005/006/008/009 + referência aos globais VG-01..08 do DESIGN-000. Fecha o loop de validação: `/kairos-forge:validar` passa a cobrar os critérios visuais junto dos funcionais.
+
 ## 2026-07-30 — Backlog materializado como issues no GitHub
 
 63 issues criadas (uma por história do backlog), com labels (9 épicos, prioridade MoSCoW, story points, tipo:história) e 10 milestones = sprints (S1–S10). Cada issue traz rastreabilidade ao requisito da SPEC, prioridade, pontos, dependências e DoD. Distribuição por sprint bate com o roadmap. Backlog agora navegável em github.com/allysonbarros/mc10-engenharia-requisitos-ia/issues.

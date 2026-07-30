@@ -90,6 +90,18 @@ flowchart TD
 - **Q-01:** Confirmar 24h com o negócio (herda Q-03 da SPEC-001).
 - **Q-02:** Cancelamento parcial (só uma atividade) vs. do evento inteiro — definir granularidade.
 
+## Critérios de aceite visuais (DESIGN-004)
+
+Rastreáveis; o "como verificar" está em `docs/design/DESIGN-004-cancelamento.md`. Aplicam-se também os critérios globais **VG-01..08** do `DESIGN-000`.
+
+| ID | Critério | Status |
+|---|---|---|
+| V-01 | Cancelar dentro da política confirma e libera a vaga | Pendente |
+| V-02 | Cancelamento fora da política é bloqueado com motivo claro | Pendente |
+| V-03 | Promovido vê aviso com prazo de 24h e contador | Pendente |
+| V-04 | Oferta de promoção expirada é comunicada; passa ao próximo | Pendente |
+| V-05 | Sair da lista de espera não afeta a ordem dos demais | Pendente |
+
 ## Validação
 
 `/kairos-forge:validar SPEC-004`

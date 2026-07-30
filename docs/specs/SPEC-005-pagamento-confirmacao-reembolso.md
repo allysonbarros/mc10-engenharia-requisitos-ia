@@ -107,6 +107,20 @@ flowchart TD
 - **Q-04 (menor):** o reembolso de 100% inclui ou não a **taxa do Mercado Pago** (se o gateway não a devolve, é custo do organizador)? Confirmar com o financeiro.
 - **Q-05 (menor):** confirmar o `prazo_reembolso` default de 7 dias.
 
+## Critérios de aceite visuais (DESIGN-005)
+
+Rastreáveis; o "como verificar" está em `docs/design/DESIGN-005-pagamento.md`. Aplicam-se também os critérios globais **VG-01..08** do `DESIGN-000`.
+
+| ID | Critério | Status |
+|---|---|---|
+| V-01 | Valor vem do servidor; usuário não edita preço | Pendente |
+| V-02 | Reserva mostra timer de 15min e avisa ao aproximar do fim | Pendente |
+| V-03 | Pix exibe QR + copia-e-cola e atualiza status sem recarregar | Pendente |
+| V-04 | Reserva expirada informa liberação e permite recomeçar | Pendente |
+| V-05 | Dados de cartão só no embed do gateway (nunca em campos nossos) | Pendente |
+| V-06 | Financeiro vê status corretos (pendente/confirmado/expirado) | Pendente |
+| V-07 | Comprovante de pagamento não expõe dado sensível | Pendente |
+
 ## Validação
 
 `/kairos-forge:validar SPEC-005`

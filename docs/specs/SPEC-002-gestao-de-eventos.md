@@ -94,6 +94,23 @@ flowchart LR
 
 Handoff visual concluído: `docs/design/DESIGN-002-gestao-de-eventos.md` (Isabela/Pablo/Ada). Define os 5 estados por view, responsivo, acessibilidade e **10 critérios de aceite visuais (V-01..V-10)** que o `/kairos-forge:desenhar verificar` cobra. Alerta: projeto sem design system — tokens + componentes base nascem nesta feature.
 
+## Critérios de aceite visuais (DESIGN-002)
+
+Rastreáveis; o "como verificar" está em `docs/design/DESIGN-002-gestao-de-eventos.md`. Aplicam-se também os critérios globais **VG-01..08** do `DESIGN-000`.
+
+| ID | Critério | Status |
+|---|---|---|
+| V-01 | Lista vazia mostra CTA "Criar primeiro evento" focável | Pendente |
+| V-02 | `capacidade ≤ 0` bloqueia com erro ligado ao campo | Pendente |
+| V-03 | Atividade `fim ≤ início` mostra erro inline; modal não fecha | Pendente |
+| V-04 | Publicar evento inválido lista as pendências e não publica | Pendente |
+| V-05 | Cada carregamento usa skeleton específico (não spinner) | Pendente |
+| V-06 | Badge de status e contador de lotação visíveis na lista | Pendente |
+| V-07 | Modal de atividade prende e devolve o foco | Pendente |
+| V-08 | Contraste AA; status não comunicado só por cor | Pendente |
+| V-09 | Alvos de toque ≥ 44px nas ações primárias | Pendente |
+| V-10 | Fluxo criar → atividade → publicar navegável por teclado | Pendente |
+
 ## Validação
 
 `/kairos-forge:validar SPEC-002`

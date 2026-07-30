@@ -64,6 +64,19 @@ Oferecer ao participante uma vitrine dos eventos publicados, com detalhe de cada
 
 - **Q-01:** Catálogo é público (sem login) ou só para usuários autenticados? (herda auth — SPEC-002/Q-01.)
 
+## Critérios de aceite visuais (DESIGN-003)
+
+Rastreáveis; o "como verificar" está em `docs/design/DESIGN-003-catalogo.md`. Aplicam-se também os critérios globais **VG-01..08** do `DESIGN-000`.
+
+| ID | Critério | Status |
+|---|---|---|
+| V-01 | Vitrine lista só eventos publicados, com vagas ou "Lotado" | Pendente |
+| V-02 | Rascunho nunca aparece na vitrine | Pendente |
+| V-03 | Detalhe mostra descrição, atividades com horários, tipo e vagas | Pendente |
+| V-04 | Evento lotado exibe "Lotado" + CTA de lista de espera | Pendente |
+| V-05 | Filtro retorna subconjunto; sem resultado tem estado próprio | Pendente |
+| V-06 | Busca anuncia a contagem de resultados (`aria-live`) | Pendente |
+
 ## Validação
 
 `/kairos-forge:validar SPEC-003`

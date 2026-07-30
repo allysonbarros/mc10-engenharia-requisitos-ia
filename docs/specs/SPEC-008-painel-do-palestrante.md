@@ -64,6 +64,17 @@ Dar ao palestrante uma visão das suas atividades e dos participantes nelas insc
 - **Q-01:** Palestrante deve ver participantes em lista de espera ou só confirmados? (adotado: só confirmados — confirmar.)
 - **Q-02:** Auth/papéis (pré-requisito compartilhado) — precisa de SPEC própria.
 
+## Critérios de aceite visuais (DESIGN-008)
+
+Rastreáveis; o "como verificar" está em `docs/design/DESIGN-008-painel-palestrante.md`. Aplicam-se também os critérios globais **VG-01..08** do `DESIGN-000`.
+
+| ID | Critério | Status |
+|---|---|---|
+| V-01 | Palestrante vê suas atividades com horários | Pendente |
+| V-02 | Lista de participantes mostra **apenas nome** (sem e-mail/telefone no payload) | Pendente |
+| V-03 | Acesso a atividade de outro palestrante é negado (403) | Pendente |
+| V-04 | Painel é somente leitura (nenhuma ação de edição) | Pendente |
+
 ## Validação
 
 `/kairos-forge:validar SPEC-008`

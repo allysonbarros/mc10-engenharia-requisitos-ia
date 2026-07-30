@@ -118,6 +118,19 @@ flowchart TD
 - **Q-03:** o prazo de 24h da lista de espera (P-01) está bom? Confirmar com o negócio.
 - **Q-04:** capacidade pode ser alterada pelo organizador depois de aberta a inscrição? (afeta lista de espera e overbooking) — provável follow-up.
 
+## Critérios de aceite visuais (DESIGN-001)
+
+Rastreáveis; o "como verificar" está em `docs/design/DESIGN-001-inscricao.md`. Aplicam-se também os critérios globais **VG-01..08** do `DESIGN-000`.
+
+| ID | Critério | Status |
+|---|---|---|
+| V-01 | Inscrição com vaga confirma e exibe comprovante on-screen | Pendente |
+| V-02 | Evento lotado oferece lista de espera com a posição N | Pendente |
+| V-03 | Conflito de horário bloqueia e nomeia a atividade em choque | Pendente |
+| V-04 | Inscrição duplicada é avisada e não duplica | Pendente |
+| V-05 | Contador do organizador atualiza sem recarregar (`aria-live`) | Pendente |
+| V-06 | Vagas restantes visíveis antes de confirmar | Pendente |
+
 ## Validação
 
 Antes de `/kairos-forge:revisar`, rode:

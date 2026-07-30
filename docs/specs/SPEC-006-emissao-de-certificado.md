@@ -67,6 +67,18 @@ Permitir que o organizador libere certificados de um evento e que o participante
 - **Q-01:** Formato do certificado (PDF? carga horária calculada ou informada?) — definir com a stack/UI.
 - **Q-02:** Haverá check-in de presença em versão futura que automatize a liberação? (follow-up.)
 
+## Critérios de aceite visuais (DESIGN-006)
+
+Rastreáveis; o "como verificar" está em `docs/design/DESIGN-006-certificado.md`. Aplicam-se também os critérios globais **VG-01..08** do `DESIGN-000`.
+
+| ID | Critério | Status |
+|---|---|---|
+| V-01 | Liberação só habilita emissão a confirmados após o término | Pendente |
+| V-02 | Participante sem liberação vê aviso e não emite | Pendente |
+| V-03 | Certificado contém nome, evento, data e carga horária corretos | Pendente |
+| V-04 | Certificado é texto acessível (não imagem) | Pendente |
+| V-05 | Verificação por código mostra válido/inválido corretamente | Pendente |
+
 ## Validação
 
 `/kairos-forge:validar SPEC-006`

@@ -91,6 +91,19 @@ Autenticar usuários e autorizar cada operação conforme o papel, com menor pri
 
 Threat model concluído: `docs/seguranca/AMEACAS-autenticacao-2026-07-29.md`. As mitigações **M1–M6 são P1** e viram tarefas: policy server-side + `role` fora de strong params, token de reset forte/single-use, rate limit/lockout, escopo+RLS, cookie httpOnly+rotação, CSRF.
 
+## Critérios de aceite visuais (DESIGN-009)
+
+Rastreáveis; o "como verificar" está em `docs/design/DESIGN-009-autenticacao.md`. Aplicam-se também os critérios globais **VG-01..08** do `DESIGN-000`.
+
+| ID | Critério | Status |
+|---|---|---|
+| V-01 | Login inválido mostra mensagem genérica (não revela o campo) | Pendente |
+| V-02 | Reset responde igual para e-mail existente e inexistente | Pendente |
+| V-03 | Cadastro exige e registra consentimento LGPD | Pendente |
+| V-04 | Política de senha visível; senha fraca rejeitada com feedback | Pendente |
+| V-05 | Token de reset inválido/expirado mostra erro e caminho de reenvio | Pendente |
+| V-06 | Campos de senha têm mostrar/ocultar e `autocomplete` corretos | Pendente |
+
 ## Validação
 
 `/kairos-forge:validar SPEC-009`
