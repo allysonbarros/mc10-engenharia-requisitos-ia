@@ -42,6 +42,10 @@ Elicitação com o usuário (Thiago/Joana/Financeiro):
 - **Reserva de vaga:** timeout de 15min confirmado.
 - Confirmação via webhook (validação de assinatura + idempotência). SPEC-005 atualizada: Q-01/Q-02/Q-03 resolvidas; restam Q-04 (taxa do gateway no reembolso) e Q-05 (prazo default) — não bloqueantes.
 
+## 2026-07-30 — Projeto publicado no GitHub (público)
+
+Repositório público criado em `github.com/allysonbarros/mc10-engenharia-requisitos-ia` (branch padrão `main`), para uso como trabalho da pós em Engenharia de Software com IA (UFG). git init + .gitignore (Rails/Node/.env) + README adicionados. Verificação de segurança pré-publicação: nenhum segredo versionado. Baseline = artefatos de requisitos (10 SPECs, 3 ADRs, 2 threat models, DESIGN-002, grafo, auditoria). Implementação da SPEC-002 (scaffold Rails+Next) estava em andamento e foi **pausada** para a publicação; será retomada com commits por incremento.
+
 ## 2026-07-29 — Threat models de pagamento e auth (Helena)
 
 Modelos de ameaças concluídos em `docs/seguranca/`: `AMEACAS-pagamento-2026-07-29.md` (SPEC-005) e `AMEACAS-autenticacao-2026-07-29.md` (SPEC-009). Ameaças principais: forja/replay de webhook e reembolso indevido (pagamento); tomada de conta e escalada de privilégio (auth). Mitigações P1 identificadas (M1–M5 pagamento; M1–M6 auth) e referenciadas nas respectivas SPECs para virarem tarefas na implementação. Preenche a dimensão Estrutura da auditoria (threat model em área sensível).
