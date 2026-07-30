@@ -42,6 +42,10 @@ Elicitação com o usuário (Thiago/Joana/Financeiro):
 - **Reserva de vaga:** timeout de 15min confirmado.
 - Confirmação via webhook (validação de assinatura + idempotência). SPEC-005 atualizada: Q-01/Q-02/Q-03 resolvidas; restam Q-04 (taxa do gateway no reembolso) e Q-05 (prazo default) — não bloqueantes.
 
+## 2026-07-30 — Fundação de UX + DESIGNs de alta prioridade (Isabela/Pablo/Ada)
+
+Decidido criar DESIGN só para SPECs com UI real (não para todas). Extraída uma **fundação compartilhada** `DESIGN-000-fundacao-ux.md` (tokens, componentes base, a11y global, VG-01..08, regra dos 5 estados) para evitar duplicação — par de design da história E0-04. Criados os DESIGN de alta prioridade referenciando a fundação: `DESIGN-001` (inscrição), `DESIGN-003` (catálogo), `DESIGN-005` (pagamento, com regras de segurança de UI do threat model). Pendentes (média/enxuta): 006, 008, 009, 004. Pulados por não terem UI própria: SPEC-007 (infra) e RNF-001.
+
 ## 2026-07-30 — Backlog, épicos e roadmap de sprints (Camila)
 
 Derivado das SPECs: 9 épicos (E0 fundação → E8 palestrante), ~48 histórias rastreáveis a requisitos, backlog priorizado (MoSCoW) e roadmap de ~10-14 sprints de 1 semana. Premissas: cadência 1 semana; capacidade = fábrica kairos-forge (agentes paralelos); estimativa em story points Fibonacci; velocidade inicial ~20 SP/sprint (a calibrar). Documentos em `docs/planejamento/` (backlog-e-roadmap.md + historias-detalhadas.md). Cada história aponta para o ID do requisito da SPEC — rastreabilidade ponta a ponta. Detalhamento completo (Gherkin + DoD + agentes) dos sprints de fundação/identidade/eventos + destaques críticos (concorrência de vagas, webhook de pagamento).
